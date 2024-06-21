@@ -26,18 +26,27 @@
     }
   ],
 
-  "inventories": [
+"items": [
     {
-      "id": "1",
-      "text": "a comment about post 1",
-      "postId": "1"
+      "id": 1,
+      "name": "Item 1",
+      "quantity": 10,
+      "price": 15.99
     },
     {
-      "id": "2",
-      "text": "another comment about post 1",
-      "postId": "1"
+      "id": 2,
+      "name": "Item 2",
+      "quantity": 5,
+      "price": 29.99
+    },
+    {
+      "id": 3,
+      "name": "Item 3",
+      "quantity": 20,
+      "price": 9.99
     }
   ],
+  
   "comments": [
     {
       "id": "1",
