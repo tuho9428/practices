@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blogs</title>
+    <link rel="stylesheet" href="./index.css">
+  </head>
+  <body>
+    <main id="blog-posts-app">
+      <header>
+        <h1 class="blog-title">Blogs App</h1>
+      </header>
+
+      <form id="blogs-form" class="blogs-form">
+        <label class="" for="title">title</label>
+        <input id="title" type="text" required/>
+        <br />
+
+        <label class="" for="content">content</label>
+        <input id="content" type="text" required/>
+        <br />
+
+        <label class="" for="date">date</label>
+        <input id="date" type="date" required/>
+        <br /><br />
+
+        <button type="submit" id="btn-post" class="btn btn-primary">Add</button>
+      </form>
+      <br><br>
+
+      <form id="blogs-form-update" class="blogs-form">
+        <label class="" for="title-update">title</label>
+        <input id="title-update" type="text"/>
+        <br />
+
+        <label class="" for="content-update">content</label>
+        <input id="content-update" type="text"/>
+        <br />
+
+        <label class="" for="date-update">date</label>
+        <input id="date-update" type="date"/>
+        <br /><br />
+
+        <button type="submit" id="btn-update" class="btn btn-primary">Update</button>
+      </form>
+      <br><br>
+
+      <div id="blog-posts-list" class="blog-list">
+        <!--<div class="post-item">
+            <div class="post-item__title">My title</div>
+            <div class="post-item__content">My content</div>
+            <div class="post-item__date">My date</div>
+            <button id="btn-edit" class="btn btn-primary">Edit</button>
+            <button id="btn-delete" class="btn btn-secondary">Delete</button>
+        </div>
+    -->
+      </div>
+
+      <footer>
+
+      </footer>
+    </main>
+
+    <script src="./api/postApi.js"></script>
+    <script src="./features/blog_posts/blogController.js"></script>
+    <script src="./features/blog_posts/blogModel.js"></script>
+    <script src="./features/blog_posts/blogView.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+{
+  "blogs": [
+    {
+      "id": "5928",
+      "title": "fghfgh",
+      "content": "fghfghfgh",
+      "date": "2024-06-26"
+    },
+    {
+      "id": "70f7",
+      "title": "r",
+      "content": "êtrt",
+      "date": "2024-06-04"
+    },
+    {
+      "id": "6890",
+      "title": "ẻt6666",
+      "content": "hfgh456456",
+      "date": "2024-08-27"
+    },
+    {
+      "id": "393c",
+      "title": "ewre",
+      "content": "êtrt",
+      "date": "2024-06-26"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

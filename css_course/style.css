@@ -1,0 +1,138 @@
+h1{
+    color: rgb(53, 23, 222);
+}
+
+.error{
+    color: rgba(0, 0, 0, 0.705);
+}
+
+.success{
+    color: green;
+}
+
+#test {
+    color: maroon;
+}
+
+.orange {
+    background-color: orange;
+    text-align: right;
+    line-height: 2;
+    letter-spacing: 4px;
+    word-spacing: 20px;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.font-styles{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 50px;
+}
+
+ul {
+    list-style: none;
+
+}
+
+.box-model {
+    border: 1px solid red;
+    height: 50px;
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+}
+
+h2 {
+    color: red;
+}
+
+h2 {
+    color: blue;
+}
+
+h3 {
+    color: red !important;
+}
+
+.sub{
+    color: blue;
+}
+
+#title {
+    color: yellow;
+}
+
+.inheritance {
+    color: orange;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+th, td {
+    border-bottom: 1px solid #ccc;
+    padding: 15px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 60%;
+}
+
+td {
+    text-align: center;
+}
+
+.content-1{
+    border: 1px solid red;
+    display: inline;
+}
+
+.content-2{
+    border: 1px solid blue;
+    display: none;
+}
+
+.position-1{
+    border: 1px solid red;
+    position: sticky;
+    top: 50px;
+    left: 50px;
+}
+
+.position-2{
+    border: 1px solid rgb(64, 0, 255);
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.container {
+    position: relative;
+    border: 1px solid black;
+    width: 200px;
+    height: 2000px;
+}
+
+.em-container {
+    font-size: 20px;
+    height: 2em;
+}
+
+.em {
+    font-size: 1.5em;
+}
+
+.rem {
+    font-size: 3rem;
+    height: max(50vh, 600px);
+    border: 1px solid #333;
+    width: 50vw;
+}
+
+
+
